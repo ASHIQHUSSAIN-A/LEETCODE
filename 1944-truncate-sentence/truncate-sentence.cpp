@@ -2,7 +2,7 @@ class Solution {
 public:
     string truncateSentence(string s, int k) {
     istringstream iss(s);
-    string str;
+    string str; 
     vector<string>v;
     string t;
     while(iss>>str){
