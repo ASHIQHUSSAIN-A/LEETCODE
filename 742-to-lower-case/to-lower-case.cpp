@@ -1,0 +1,10 @@
+class Solution {
+public:
+    string toLowerCase(string s) {
+        string t;
+    for(auto i:s){
+        t+=tolower(i);
+    }
+    return t;    
+    }
+};
